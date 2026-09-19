@@ -1,0 +1,12 @@
+{
+  "name": "Varsity Life HUB",
+  "description": "Mobile-responsive South African campus super-app featuring university color themes, campus-isolated feeds, marketplace, events, study buddy matching, GPA logger, and student life.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

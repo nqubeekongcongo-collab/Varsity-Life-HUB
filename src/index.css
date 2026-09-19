@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  h1, h2, h3, .font-display {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Typography Font Families */
+.app-font-modern {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+.app-font-trendy {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+.app-font-academic {
+  font-family: 'Merriweather', Georgia, serif !important;
+}
+.app-font-elegant {
+  font-family: 'Playfair Display', Georgia, serif !important;
+}
+
+/* Font Size Scaling */
+.app-size-small {
+  font-size: 14px;
+  zoom: 0.92;
+}
+.app-size-medium {
+  font-size: 16px;
+  zoom: 1;
+}
+.app-size-large {
+  font-size: 18px;
+  zoom: 1.08;
+}
+
+/* Font Style Emphasis */
+.app-style-regular {
+  font-style: normal;
+}
+.app-style-italic p,
+.app-style-italic span:not(.no-italic),
+.app-style-italic input,
+.app-style-italic textarea,
+.app-style-italic h1,
+.app-style-italic h2,
+.app-style-italic h3,
+.app-style-italic h4 {
+  font-style: italic !important;
+}
+
+.app-style-bold p,
+.app-style-bold span:not(.font-normal),
+.app-style-bold input,
+.app-style-bold textarea {
+  font-weight: 600 !important;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(150, 150, 150, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(150, 150, 150, 0.4);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
